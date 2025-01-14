@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import TaskBox from "./components/TaskBox/TaskBox";
-import DateComponent from "./components/dateComponent/DateComponent";
-import SortButton from "./components/SortingButton/SortButton";
+import MainPage from "./pages/MainPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,9 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <DateComponent />
-        <SortButton />
-        <TaskBox />
+        <MainPage />
       </div>
     </>
   );

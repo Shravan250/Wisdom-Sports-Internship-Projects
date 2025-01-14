@@ -1,12 +1,11 @@
 import React from "react";
-import "./sort.css";
 
 const SortButton = () => {
   const buttonStyles =
     "bg-[#EDE8FF] text-[#5F33E1] px-[15px] py-1 rounded-full mx-2";
 
   return (
-    <div className="lg:w-1/2  w-[95%] mx-auto overflow-auto-x">
+    <div className="lg:w-1/2  w-[95%] mx-auto overflow-auto">
       <div className="whitespace-nowrap">
         <button className={buttonStyles}>All</button>
         <button className={buttonStyles}>To do</button>
