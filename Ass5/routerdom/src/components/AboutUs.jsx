@@ -15,7 +15,7 @@ const AboutUs = () => {
             alt="Profile picture"
           />
           <div className="text">
-            <h2>Hi, I'm Shravan Bobade</h2>
+            <h2>Hi, I'm Aryan Borawake</h2>
             <p>
               I'm a passionate web developer with a love for creating intuitive
               and dynamic web experiences. With experience in front-end and
