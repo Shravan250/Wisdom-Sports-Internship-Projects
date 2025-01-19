@@ -3,6 +3,7 @@ import Intro from "../components/Intro/Intro";
 import DateComponent from "../components/dateComponent/DateComponent";
 import SortButton from "../components/SortingButton/SortButton";
 import TaskBox from "../components/TaskBox/TaskBox";
+import AddProject from "../components/addProject/AddProject";
 
 const MainPage = () => {
   return (
@@ -11,9 +12,10 @@ const MainPage = () => {
         <Intro />
       </div>
       <div className="flex flex-col w-1/2 gap-3">
-        <DateComponent />
+        {/* <DateComponent />
         <SortButton />
-        <TaskBox />
+        <TaskBox /> */}
+        <AddProject/>
       </div>
     </div>
   );
