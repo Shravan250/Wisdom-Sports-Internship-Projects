@@ -9,7 +9,7 @@ const CalendarPage = () => {
         <Intro />
       </div>
       <div className="flex flex-col w-1/2 gap-3 ">
-        <MyCalendar/>
+      <MyCalendar/>
       </div>
     </div>
   )
