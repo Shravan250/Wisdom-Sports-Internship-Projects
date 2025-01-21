@@ -1,13 +1,13 @@
 import React from "react";
-
+import { CoverImage } from "../../assets";
 const Intro = () => {
   return (
     <div className="flex w-full flex-col gap-3 justify-center items-center min-h-screen bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100">
       <div className="mb-6">
         <img
-          src="https://cdn.pixabay.com/photo/2024/09/11/06/00/character-9038820_1280.jpg"
+          src={CoverImage}
           alt="Character Illustration"
-          className="w-32 mx-auto"
+          className="w-full h-full mx-auto"
         />
       </div>
 

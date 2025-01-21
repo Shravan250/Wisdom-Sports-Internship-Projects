@@ -71,7 +71,7 @@ const TaskBox = () => {
 
   return (
     <>
-      <div className="h-3/4 overflow-auto">
+      <div className="h-60 sm:h-72 md:h-96 lg:h-[550px] xl:h-auto overflow-auto">
         {tasks.map((task, index) => (
           <div key={index} className={containerStyles}>
             <div className="flex flex-col justify-between items-start">
